@@ -92,16 +92,16 @@ This command opens a bash session in your web service container, where you can r
 ### API Endpoints
 
 1. **User Authentication**
-   1. POST /api/login/: User login endpoint.
-   2. POST /api/signup/: User signup endpoint.
+   1. POST /api/login/ User login endpoint.
+   2. POST /api/signup/ User signup endpoint.
 
 2. **User Management**
-   1. GET /api/users/search/?search=<query>: Search users by username or email.
-   2. POST /api/send-friend-request/: Send a friend request. 
-   3. POST /api/accept-friend-request/<request_id>/: Accept a friend request. 
-   4. POST /api/reject-friend-request/<request_id>/: Reject a friend request. 
-   5. GET /api/friends/: List of accepted friends. 
-   6. GET /api/pending-requests/: List of pending friend requests.
+   1. GET /api/users/search/?search=<query> Search users by username or email.
+   2. POST /api/send-friend-request/ Send a friend request. 
+   3. POST /api/accept-friend-request/<request_id>/ Accept a friend request. 
+   4. POST /api/reject-friend-request/<request_id>/ Reject a friend request. 
+   5. GET /api/friends/ List of accepted friends. 
+   6. GET /api/pending-requests/ List of pending friend requests.
 
 
 ### Authentication
