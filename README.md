@@ -78,12 +78,12 @@ Choose one of the following methods to set up and run the project:
 
 2. **Build and run Docker containers:**
     ```bash
-    docker-compose up --build
+    docker compose up --build
 This command will build your Docker images based on the Dockerfile and start the containers defined in docker-compose.yml. The Django development server will be accessible at http://localhost:8000.
 
 3. **Access the Docker Container (optional):**
     ```bash
-    docker-compose exec web bash
+    docker compose exec web bash
 This command opens a bash session in your web service container, where you can run Django management commands (python manage.py migrate, python manage.py createsuperuser, etc.) and interact with your Django project.
 
 
